@@ -1,12 +1,12 @@
 * {
-  margin:0;
-  padding:0;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 /* header styles */
 header {
-  background-image: url('../images/banner/banner2.png');
+  background-image: url("../images/banner/banner2.png");
   height: 100vh;
   width: 100%;
 }
@@ -30,9 +30,9 @@ header {
   font-weight: 600;
   font-size: 20px;
   color: #ffff;
-  background:  #F15B22;
+  background: #f15b22;
   border-radius: 5px;
-  border:none;
+  border: none;
   padding: 20px 26px;
   margin-right: 230px;
   margin-bottom: 167px;
@@ -43,28 +43,57 @@ header {
   gap: 87px;
 }
 .about-content h3 {
-  padding-top: 369px;
+  margin-top: 369px;
   padding-right: 250px;
   padding-bottom: 24px;
   font-weight: 700;
   font-size: 40px;
-  color:#151414;
-  
+  color: #151414;
 }
-.about-content .content-para{
-  padding-right:320px ;
+.about-content .content-para {
+  padding-right: 320px;
   margin-bottom: 16px;
   color: #444343;
   font-size: 16px;
 }
 .about-img {
- margin-top: 130px;
- margin-left: 206px;
- }
- .about-content p {
-  margin-bottom: 8px;
+  margin-top: 130px;
+  margin-left: 206px;
+}
+.about-content ul {
   color: #444343;
   font-size: 16px;
   font-weight: 400;
- }
+  list-style: none;
+}
+.about-content ul li {
+  margin-bottom: 8px;
+}
 /* skill styles */
+ .plan-title {
+  margin-top: 130px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 50px;
+}
+.skill-container {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 320px;
+  margin-right: 230px;
+  gap: 130px;
+}
+.skill-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+  margin-top: 15px;
+}
+.skill-description {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737273;
+  margin-top: 15px;
+}
