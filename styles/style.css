@@ -37,3 +37,34 @@ header {
   margin-right: 230px;
   margin-bottom: 167px;
 }
+/* about section styles */
+.about-container {
+  display: flex;
+  gap: 87px;
+}
+.about-content h3 {
+  padding-top: 369px;
+  padding-right: 250px;
+  padding-bottom: 24px;
+  font-weight: 700;
+  font-size: 40px;
+  color:#151414;
+  
+}
+.about-content .content-para{
+  padding-right:320px ;
+  margin-bottom: 16px;
+  color: #444343;
+  font-size: 16px;
+}
+.about-img {
+ margin-top: 130px;
+ margin-left: 206px;
+ }
+ .about-content p {
+  margin-bottom: 8px;
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+ }
+/* skill styles */
