@@ -69,6 +69,21 @@ header {
 .about-content ul li {
   margin-bottom: 8px;
 }
+/* video section styles */
+.intro-video {
+  max-width: 1140px;
+  margin-left: 200px;
+  text-align: center;
+}
+.intro-title {
+  
+  font-weight: 700;
+font-size: 40px;
+color:#151414;
+margin-top: 130px;
+margin-bottom: 50px;
+}
+
 /* skill styles */
 .plan-title {
   margin-top: 130px;
